@@ -81,12 +81,16 @@ footer{
     background-color: var(--corBackgroundPrincipalPrimaria);  
 }
 
+footer nav p{
+    font-size: 12px;
+}
+
 footer .container{
     padding: 20px;
     background-color: var(--corBackgroundPrincipalSecundaria);
 }
 footer nav ul li a{
-    color: var(--corDoTextoPadrao)
+    color: var(--corDoTextoPadrao);
 }
 footer nav .info-contato li{
     margin: 0 0 6px;
@@ -95,15 +99,50 @@ footer nav .redes-sociais{
     border-top: 1px solid rgba(128, 128, 128, 0.452);
     margin: 20px 0 50px;
     padding: 50px 0 0;
-    text-align: center;
+    
 }
 footer nav .redes-sociais li{
     margin: 15px 15px;
-    text-align: center;
     display: inline-block;
 }
 footer nav .redes-sociais li a img{
     width: 40px;
+
+}
+
+footer nav .linkedin:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 0.4s ease-out;
+    align-items: center;
+}
+
+footer nav .github:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 0.4s ease-out;
+    align-items: center;
+}
+
+footer nav .instagram:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 0.4s ease-out;
+    align-items: center;
+}
+
+footer nav .youtube:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 0.4s ease-out;
+    align-items: center;
+}
+
+footer nav .facebook:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 0.4s ease-out;
+    align-items: center;
 }
 
 
